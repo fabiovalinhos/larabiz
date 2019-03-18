@@ -4,7 +4,7 @@
 Business Listings with login/authentication for users  
 Product made with Laravel.  
 
-Demo site hosted in Heroku click [here](coming soon)  
+Demo site hosted in Heroku click [here](https://larabiz.herokuapp.com/)  
 
 For frontend  
 - Bootstrap  
