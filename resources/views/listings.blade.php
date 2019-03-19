@@ -6,7 +6,11 @@
         <div class="card">
             <div class="card-header">
                 Latest Business Listings
-                <a class="btn btn-primary btn-sm float-right" href="/dashboard">User's Dashboard</a>
+                
+                @if (Auth::check()) 
+                    <a class="btn btn-primary btn-sm float-right" href="/dashboard">User's Dashboard</a>
+                @endif
+                
             </div>
 
             <div class="card-body">
